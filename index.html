@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="mcssam">
+    <meta name="description" content="Portfolio, RWD Template">
+    <title>Portfolio, RWD Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/favicon/montblanc_fav32.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/montblanc_fav144.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 페이지 JS -->
+    <!-- 박스 슬라이더 CSS -->
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <!-- 페이지 CSS -->
+    <link rel="stylesheet" href="./css/rwd_template.css">
+    <link rel="stylesheet" href="./css/display_none_scrollbar.css">
+
+    <!-- 박스 슬라이더 JS -->
+    <script src="./js/jquery.bxslider.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- 1. Header -->
+        <header class="header cf" id="home" >
+            <div class="gnb_fixed">
+                <!-- Logo -->
+                <h1 class="logo"><a href="#">아이유 저장소</a></h1>
+                <!-- /Logo -->
+                <!-- GNB -->
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#sec01">IU OFFICIAL</a></li>
+                        <li><a href="#sec02">WORKS</a></li>
+                        <li><a href="#sec03">DRAMA</a></li>
+                        <li><a href="#sec04">CONTACT&nbsp;US</a></li>
+                    </ul>
+                </nav>
+                <!-- /GNB -->
+                <!-- Hamberger Toggle -->
+                <span class="menu_toggle_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <!-- /Hamberger Toggle -->
+            </div>
+        </header>
+        <!-- /1. Header -->
+
+        <!-- 2.Slider -->
+        <!-- <article class="slider">
+            <h2 class="slider_img">
+                <img src="./images/img_bxSlider/iu_slide.jpg" alt="슬라이드 이미지">
+            </h2>
+        </article> -->
+
+        <!-- 2-2 슬라이드 제이쿼리 플러그인 작업 -->
+        <article class="slider">
+            <div id="gallery_wrap">
+                <ul class="slide_gallery">
+                    <li><img src="./images/img_bxSlider/slide02.jpg" alt="슬라이드01"></li>
+                    <li><img src="./images/img_bxSlider/slide01.jpg" alt="슬라이드02"></li>
+                    <li><img src="./images/img_bxSlider/slide03.jpg" alt="슬라이드03"></li>
+                </ul>
+            </div>
+        </article>
+        <!-- /2-2 슬라이드 제이쿼리 플러그인 작업 -->
+
+        <!-- 3. Contents -->
+        <main role="main">
+            <section class="content">
+                <!-- 3-1. Display -->
+                <section class="display_section container" id="sec01">
+                    <div class="cf">
+                        <h2 class="sec_title">IU Official</h2>
+                        <!-- <p class="desc">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a <br>
+                            piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                        </p> -->
+                    </div>
+                </section>
+                <!-- /3-1. Display -->
+    
+                <!-- 3-2. Promotion -->
+                <section class="promotion_section container">
+                    <h2>
+                        <ul class="promotion_list cf">
+                            <li>
+                                <a href="https://www.youtube.com/dlwlrma" target="_blank">
+                                    <img src="./images/p_images/iu_youtube.jpg" alt="아이유유튜브">
+                                    <h3>Official YouTube Channel</h3>
+                                    <p>
+                                        이지금 [IU Official] >
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/dlwlrma" target="_blank">
+                                    <img src="./images/p_images/iu_instar.jpg" alt="인스타그램">
+                                    <h3>IU Instagram</h3>
+                                    <p>
+                                        dlwlrma >
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/iu.loen" target="_blank">
+                                    <img src="./images/p_images/iu_facebook.png" alt="페이스북">
+                                    <h3>Official Facebook</h3>
+                                    <p>
+                                        아이유(IU) >
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/_IUofficial" target="_blank">
+                                    <img src="./images/p_images/iu_twitter.jpg" alt="트위터">
+                                    <h3>Official Twitter</h3>
+                                    <p>
+                                        아이유(IU) 공식 트위터 >
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </h2>
+                </section>
+                <!-- /3-2. Promotion -->
+                
+                <hr class="divider">
+                    
+                <!-- 3-3. Work -->
+                <section class="work_section" id="sec02">
+                    <div>
+                        <h2 class="sec_title container">WORKS</h2>
+                        <ul class="work_list cf">
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>Last Fantasy</h3>
+                                        <span>발매일
+                                            2011.11.29</span>
+                                    </div>
+                                    <img src="./images/p_images/iu01.jpg" alt="포트폴리오1">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>스무 살의 봄</h3>
+                                        <span>발매일
+                                            2012.05.11</span>
+                                    </div>
+                                    <img src="./images/p_images/iu02.jpg" alt="포트폴리오2">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>마음</h3>
+                                        <span>발매일
+                                            2015.05.18</span>
+                                    </div>
+                                    <img src="./images/p_images/iu03.jpg" alt="포트폴리오3">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>밤편지</h3>
+                                        <span>발매일 2017.03.24</span>
+                                    </div>
+                                    <img src="./images/p_images/iu04.jpg" alt="포트폴리오4">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>Palette</h3>
+                                        <span>발매일
+                                            2017.04.21</span>
+                                    </div>
+                                    <img src="./images/p_images/iu05.jpg" alt="포트폴리오5">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>Love poem</h3>
+                                        <span>발매일
+                                            2019.11.18</span>
+                                    </div>
+                                    <img src="./images/p_images/iu06.jpg" alt="포트폴리오6">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>strawberry moon</h3>
+                                        <span>발매일
+                                            2021.10.19</span>
+                                    </div>
+                                    <img src="./images/p_images/iu07.jpg" alt="포트폴리오7">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h3>IU 5th Album 'LILAC'</h3>
+                                        <span>발매일
+                                            2021.03.25</span>
+                                    </div>
+                                    <img src="./images/p_images/iu08.jpg" alt="포트폴리오8">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- /3-3. Work -->
+    
+                <hr class="m_divider">
+    
+                <!-- 3-4. Blog -->
+                <section class="blog_section container" id="sec03">
+                    <div class="cf">
+                        <h2 class="sec_title">DRAMA</h2>
+                        <ul class="blog_list cf">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/p_images/blog_01.gif" alt="블로그 이미지01" width="286px">
+                                </a>
+                                <time datetime="2019-07-13">2019.07.13. ~ 2019.09.01.</time>
+                                <a href="#">
+                                    <h3>
+                                        호텔 델루나
+                                    </h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/p_images/blog_02.gif" alt="블로그 이미지02" width="268px">
+                                </a>
+                                <time datetime="2016-08-29">2016.08.29. ~ 2016.11.01.</time>
+                                <a href="#">
+                                    <h3>
+                                        달의 연인 - 보보경심 려
+                                    </h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/p_images/blog_03.gif" alt="블로그 이미지03" width="268px">
+                                </a>
+                                <time datetime="2015-05-15">2015.05.15. ~ 2015.06.20.</time>
+                                <a href="#">
+                                    <h3>
+                                        프로듀사
+                                    </h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- /3-4. Blog -->
+    
+                <!-- 3-5. Contact -->
+                <section class="contact_section container" id="sec04">
+                    <div>
+                        <h2 class="sec_title">CONTACT</h2>
+                        <form action="#" class="form_box">
+                            <fieldset class="cf">
+                                <legend class="blind">CONTACT&nbsp;US</legend>
+                                <!-- Input Form -->
+                                <div class="form">
+                                    <label for="name" class="blind">Name</label>
+                                    <input type="text" id="name" placeholder="Name">
+                                    <label for="phone" class="blind">Phone</label>
+                                    <input type="tel" id="phone" placeholder="Phone">
+                                    <label for="email" class="blind">E-Mail</label>
+                                    <input type="email" id="email" placeholder="Email Address">
+                                </div>
+                                <!-- /Input Form -->
+                                <!-- Textarea Form -->
+                                <div class="txta">
+                                    <label for="message" class="blind">Message</label>
+                                    <textarea id="message" placeholder="Message"></textarea>
+                                </div>
+                                <!-- /Textarea Form -->
+                                <!-- Button -->
+                            </fieldset>
+                                <div class="send_btn">
+                                    <button>SEND MESSAGE</button>
+                                </div>
+                                <!-- /Button -->
+                        </form>
+                    </div>
+                </section>
+                <!-- /3-5. Contact -->
+            </section>
+        </main>
+        <!-- /3. Contents -->
+        <!-- Top Button -->
+
+        <!-- 4.Footer -->
+        <footer class="footer">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118578.54765883452!2d126.93411172993378!3d37.576389930339644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3eb6da7589b%3A0x12a0299d6b91faf1!2zQXBwbGUg6rCA66Gc7IiY6ri4!5e1!3m2!1sko!2skr!4v1676943333173!5m2!1sko!2skr"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p>
+                COPYRIGHT ALL RIGHTS RESERVED., WR
+            </p>
+        </footer>
+        <!-- /4.Footer -->
+    </div>
+<script src="./js/iu.js"></script>
+</body>
+</html>
