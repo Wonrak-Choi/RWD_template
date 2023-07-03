@@ -112,7 +112,7 @@ body{
 /* slider */
 .slider{
     margin: 0 auto;
-    width: 1920px;
+    width: 100%;
 }
 .slider .slider_img{
     max-width: 100%;
